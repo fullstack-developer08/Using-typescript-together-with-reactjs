@@ -1,0 +1,23 @@
+{
+  "name": "using-typescript-with-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdarif-k/Using-typescript-together-with-reactjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdarif-k/Using-typescript-together-with-reactjs/issues"
+  },
+  "homepage": "https://github.com/mdarif-k/Using-typescript-together-with-reactjs#readme",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
