@@ -41,3 +41,22 @@ This project will gives you idea about how to use React with typescript. Project
     "@types/react-dom": "^16.0.5"
 ```
 React and React-dom is a javascript packages. If we need to use javascript packages in typescript. We need one bridge between typescript and javascript. We need this translation. Thankfully for react and react-dom we get those translation using thrid party modules @types.
+
+```javascript
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3",
+    "webpack-merge": "^4.1.2",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "clean-webpack-plugin": "^0.1.19"
+```
+The above all dependency is related to the webpack and webpack-dev-server. 
+
+webpack-dev-server is build on the webpack module. It provides a development server and passed file using in memory of the server, It will not create the dist or build folder. 
+
+we use webpack to build the production copy of our project. 
+
+clean-webpack-plugin is used to clean the dist folder before generating new dist folder. 
+
+uglifyjs-webpack-plugin is used to minify the javascript file.
+
