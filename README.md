@@ -60,3 +60,6 @@ clean-webpack-plugin is used to clean the dist folder before generating new dist
 
 uglifyjs-webpack-plugin is used to minify the javascript file.
 
+webpack-merge we use share common properties of webpack config between development and production.
+
+webpack-cli is required to run webpack module.
