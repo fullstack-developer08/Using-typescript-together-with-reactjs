@@ -63,3 +63,15 @@ uglifyjs-webpack-plugin is used to minify the javascript file.
 webpack-merge we use share common properties of webpack config between development and production.
 
 webpack-cli is required to run webpack module.
+
+```javascript
+"lite-server": "^2.3.0"
+```
+lite-server is just like express server and webpack-dev-server. It can also listen the changes and reflected the changes in the port.
+
+```javascript
+"awesome-typescript-loader": "^5.0.0",
+"source-map-loader": "^0.2.3",
+"typescript": "^2.8.3",
+```
+
