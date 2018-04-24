@@ -1,13 +1,15 @@
+const path = require('path');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
-    mode: 'development',
     entry: "./src/index.tsx",
-    output: {
-        filename: './dist/bundle.js'
-    },
-
-    // Enable sourcemaps for debugging webpack's output.
-    devtool: "source-map",
-
+    plugins: [
+        new CleanWebpackPlugin(['dist']),
+        // new HtmlWebpackPlugin({
+        //     title: 'Production'
+        // })
+    ],
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.
         extensions: [".ts", ".tsx", ".js", ".json"]
@@ -30,5 +32,5 @@ module.exports = {
     externals: {
         "react": "React",
         "react-dom": "ReactDOM"
-    },
+    }
 };
